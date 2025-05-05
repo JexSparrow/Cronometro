@@ -1,3 +1,64 @@
 * {
-    font-size: 50px;
+    font-size: 30px;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #232223ed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+form[name="form_main"] {
+    background-color: #1a1a1a;
+    /* Preto para o fundo do cronômetro */
+    color: #ffffff;
+    /* Branco para o texto principal */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+div {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #a020f0;
+    /* Roxo para os dígitos do tempo */
+}
+
+span {
+    font-weight: bold;
+    font-size: 60px;
+}
+
+button {
+    background-color: #a020f0;
+    /* Roxo para os botões */
+    color: #ffffff;
+    /* Branco para o texto dos botões */
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #8618c7;
+    /* Um tom de roxo mais escuro para o hover */
+}
+
+button[name="reset"] {
+    background-color: #333;
+    /* Um tom mais escuro para o botão de reset */
+}
+
+button[name="reset"]:hover {
+    background-color: #555;
 }
